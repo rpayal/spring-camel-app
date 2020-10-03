@@ -39,6 +39,10 @@ public class ApplicationResource extends RouteBuilder {
                 .port(port)
                 .host("localhost")
                 .contextPath(contextPath)
+                .apiContextPath("/swagger")
+                .apiContextRouteId("swagger")
+                .apiProperty("api.title", "Spring Camel Integration Api")
+                .apiProperty("api.version", "1.0")
                 .bindingMode(RestBindingMode.json);
 
         // error channel handlers
