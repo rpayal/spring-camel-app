@@ -41,4 +41,13 @@ Swagger-ui endpoint
 ```
 /swagger-ui
 ```
-
+#### Docker image generation
+With no further code changes necessary, simply run the command
+```$xslt
+mvn spring-boot:build-image
+```
+Once built complete, we can run our new Docker image. 
+```$xslt
+docker pull rpayal/spring-camel-app:latest
+docker run -p 9090:9090 -t rpayal/spring-camel-app:latest (note change of port to 9090).
+```
