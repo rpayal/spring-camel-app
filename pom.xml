@@ -67,7 +67,16 @@
 			<artifactId>camel-swagger-java-starter</artifactId>
 			<version>${camel.version}</version>
 		</dependency>
-
+		<dependency>
+			<groupId>org.webjars</groupId>
+			<artifactId>swagger-ui</artifactId>
+			<version>3.34.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.webjars</groupId>
+			<artifactId>webjars-locator</artifactId>
+			<version>0.40</version>
+		</dependency>
 		<!-- Test dependencies -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

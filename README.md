@@ -31,4 +31,14 @@ an image of the microservice. (It’s optional, but if you are able to complete 
 strongly preferred)
 ```
 
+#### Exposed Swagger endpoints
+```
+/api/swagger
+/api/swagger/swagger.json
+/api/swagger/swagger.yaml
+```
+Swagger-ui endpoint
+```
+/swagger-ui
+```
 
