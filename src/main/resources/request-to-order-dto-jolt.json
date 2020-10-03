@@ -1,0 +1,17 @@
+[
+  {
+    "operation": "remove",
+    "spec": {
+      "username": "",
+      "token": "",
+      "id": ""
+    }
+  },
+  {
+    "operation": "shift",
+    "spec": {
+      "productName": "name",
+      "quantity": "qty"
+    }
+  }
+]

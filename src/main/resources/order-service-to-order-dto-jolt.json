@@ -1,0 +1,12 @@
+[
+  {
+    "operation": "shift",
+    "spec": {
+      "*": {
+        "id": "[&1].orderId",
+        "name": "[&1].productName",
+        "qty": "[&1].quantity"
+      }
+    }
+  }
+]
