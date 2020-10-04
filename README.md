@@ -51,3 +51,21 @@ Once built complete, we can run our new Docker image. 
 docker pull rpayal/spring-camel-app:latest
 docker run -p 9090:9090 -t rpayal/spring-camel-app:latest (note change of port to 9090).
 ```
+
+#### Exposed endpoints
+```
+GET   
+/api/hello                  // Welcome to app
+/api/orders                 // To display a list of orders
+
+POST
+/api/order                  // To create an order
+
+Sample request;
+{
+    "username": "tester",
+    "token": "xxxxyyyyzzz",
+    "productName": "Plum",
+    "quantity": 10
+}
+```
