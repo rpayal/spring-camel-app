@@ -45,6 +45,10 @@ Swagger-ui endpoint
 With no further code changes necessary, simply run the command
 ```$xslt
 mvn spring-boot:build-image
+
+mvn spring-boot:build-image -Dspring-boot.build-image.imageName=<dockerId>/spring-camel-app:latest
+# push image to docker hub
+docker push <dockerId>/spring-camel-app:latest
 ```
 Once built complete, we can run our new Docker image. 
 ```$xslt
